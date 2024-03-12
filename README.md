@@ -16,10 +16,9 @@
     - JavaScript
 
 ### 言語使用率
-- Java 42.9%
-- HTML 38.7%
-- JavaScript 9.6%
-- CSS 8.8%
+- Java 66.8%
+- CSS 27.2%
+- JavaScript 6.0%
 
 
  ***
