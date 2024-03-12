@@ -49,14 +49,16 @@
     - ポイントを消費してアイテムと交換
 
 ### 進捗管理
-![image](https://github.com/hisano2309/OkuboZoo/assets/150416585/1c4c92b4-eec5-4dad-8b03-18464a813811)
-![image](https://github.com/hisano2309/OkuboZoo/assets/150416585/ba9a4c3a-02c9-43ee-8bfa-4b197bf09294)
+![image](https://github.com/hisano2309/OkuboZoo/assets/150416585/cae0a0c4-b3fc-4a0c-8411-085639197951)
+![image](https://github.com/hisano2309/OkuboZoo/assets/150416585/3335204a-f642-48ec-9f4e-9b484def17e3)
+
 
 ### 画面設計
-![image](https://github.com/hisano2309/OkuboZoo/assets/150416585/fd096715-df7c-4e75-baa1-703de4fe46b3)
+![image](https://github.com/hisano2309/OkuboZoo/assets/150416585/ea6b4834-6413-411e-904a-017425158829)
 
 ### データ設計
-![image](https://github.com/hisano2309/OkuboZoo/assets/150416585/9446c001-3a7c-4102-8557-720a83eabbfe)
+![image](https://github.com/hisano2309/OkuboZoo/assets/150416585/664a50a9-d1f0-4012-b6f5-333d5221bdc7)
+
 
 ### 工夫したこと・反省点
 - モーダルウィンドウを活用し画面遷移をなるべく少なくすることで、ユーザビリティを向上した
