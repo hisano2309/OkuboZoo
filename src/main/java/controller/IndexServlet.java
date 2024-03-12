@@ -9,6 +9,10 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
+import dao.DaoFactory;
+import dao.GachaDao;
+import domain.User;
+
 /**
  * Servlet implementation class IndexServlet
  */
@@ -20,7 +24,13 @@ public class IndexServlet extends HttpServlet {
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		request.getRequestDispatcher("/WEB-INF/view/index.jsp").forward(request, response);
+	    HttpSession session = request.getSession();
+	    User user = (User) session.getAttribute("user");
+	    if (user != null) {
+	        GachaDao gachaDao = DaoFactory.createGachaDao();
+	        gachaDao.checkLastGachaTime(request, user.getId());
+	    }
+	    request.getRequestDispatcher("/WEB-INF/view/index.jsp").forward(request, response);
 	}
 	
 

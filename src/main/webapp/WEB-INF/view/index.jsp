@@ -16,7 +16,7 @@
 
 <body>
 
-	<c:if test="${user != null}">
+	<c:if test="${gachaError == null && user != null}">
 		<div id="js_modal" class="top_modal">
 		  <div class="js_modal_close modal_bg"></div>
 		  <div class="modal_wrap">

@@ -14,6 +14,6 @@ public interface GachaDao {
 	// 最後にガチャを回した日時を取得
 	Date findLastGachaTime(int userId);
 	
-  // ガチャを回せるかチェック
-  void checkLastGachaTime(HttpServletRequest request, int userId);
+	// ガチャを回せるかチェック
+	void checkLastGachaTime(HttpServletRequest request, int userId);
 }

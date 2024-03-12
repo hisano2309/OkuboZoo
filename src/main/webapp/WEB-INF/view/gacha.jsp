@@ -14,13 +14,13 @@
     <div class="gacha_wrap">
         <div class="gacha">
             <p class="door"></p>
-            <img class="bg" src="images/gacha.png" alt="">
-            <img class="handle" src="images/handle.png" alt="">
+            <img class="bg" src="images/gacha.png">
+            <img class="handle" src="images/handle.png">
             <p class="lightup"></p>
             <div class="capsule">
                 <div class="capsule_inner">
-                    <img class="capsule_white" src="images/capsule_white.png" alt="">
-                    <img class="capsule_red" src="images/capsule_red.png" alt="">
+                    <img class="capsule_white" src="images/capsule_white.png">
+                    <img class="capsule_red" src="images/capsule_red.png">
                 </div>
             </div>
         </div>
@@ -30,7 +30,7 @@
         <div class="line-container"></div>
         <p class="result">
           <img src="images/point.svg">
-          <span><c:out value="${point}" />pt</span> が<br>当たりました！
+          <span><c:out value="${point}" /></span> が<br>当たりました！
         </p>
         <p><a href="mypage">マイページへ戻る</a></p>
     </div>

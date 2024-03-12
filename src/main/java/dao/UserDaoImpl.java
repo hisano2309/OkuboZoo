@@ -98,15 +98,15 @@ public class UserDaoImpl implements UserDao {
 
 	@Override
 	public void saveItem(int userId, int itemId, Item created) {
-    String sql = "INSERT INTO user_items(user_id, item_id, created) VALUES(?, ?, NOW())";
-    try (Connection con = ds.getConnection()) {
-        PreparedStatement stmt = con.prepareStatement(sql);
-        stmt.setInt(1, userId);
-        stmt.setInt(2, itemId);
-        stmt.executeUpdate();
-    } catch (Exception e) {
-    	e.printStackTrace();
-    }
+	    String sql = "INSERT INTO user_items(user_id, item_id, created) VALUES(?, ?, NOW())";
+	    try (Connection con = ds.getConnection()) {
+	        PreparedStatement stmt = con.prepareStatement(sql);
+	        stmt.setInt(1, userId);
+	        stmt.setInt(2, itemId);
+	        stmt.executeUpdate();
+	    } catch (Exception e) {
+	    	e.printStackTrace();
+	    }
 	}
   
 	@Override

@@ -65,6 +65,5 @@ public class GachaDaoImpl implements GachaDao {
 				request.setAttribute("gachaError", "一日一回だけガチャを回せます。");
 			}
 		}
-		
 	}
 }
